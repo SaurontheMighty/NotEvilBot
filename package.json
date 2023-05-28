@@ -1,5 +1,25 @@
 {
+  "name": "notevilbot",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./build/index.js",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf ./build/*",
+    "start": "npm run clean && tsc && node ./build/index.js"
+  },
+  "author": "",
+  "license": "",
   "dependencies": {
-    "discord.js": "^14.11.0"
+    "@discordjs/builders": "^1.6.3",
+    "@discordjs/rest": "^1.7.1",
+    "discord-api-types": "^0.37.42",
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.0.3",
+    "i": "^0.3.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20.2.5",
+    "typescript": "^5.0.4"
   }
 }

@@ -6,4 +6,4 @@ Learn how to build a discord bot: https://github.com/AnIdiotsGuide/discordjs-bot
 
 Steps to Get Started:
 1. `npm i` in the root
-2. Add your bot token to `config.js`
+2. Add your bot token to `.env`. Use `BOT_TOKEN="<insert bot token>"`.
